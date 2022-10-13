@@ -1,17 +1,17 @@
 import React from "react";
 import Navbr from "../components/Navbr";
-import Jumbotron from "../components/Jumbotron";
 import Header from "../components/Header";
 import Paragraph from "../components/Paragraph";
 import Tabs from "../components/Tabs";
 import Footer from "../components/Footer";
+import Carousel from "../components/Carousel";
 
 function Home() {
   return (
     <>
       <div className="wrapper">
         <Navbr />
-        <Jumbotron />
+        <Carousel />
         <div>
           <h1>We do YAY things</h1>
           <p>
