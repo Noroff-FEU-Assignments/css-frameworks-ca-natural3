@@ -7,7 +7,7 @@ import imgCarousel3 from "../assets/carousel/carousel-3.jpg";
 
 function carousel() {
   return (
-    <Carousel>
+    <Carousel controls={false}>
       <Carousel.Item>
         <img className="d-block w-100" src={imgCarousel1} alt="First slide" />
       </Carousel.Item>

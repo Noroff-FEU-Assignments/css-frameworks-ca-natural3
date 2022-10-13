@@ -10,7 +10,6 @@ function Home() {
   return (
     <>
       <div className="wrapper">
-        <Navbr />
         <Carousel />
         <div>
           <h1>We do YAY things</h1>
