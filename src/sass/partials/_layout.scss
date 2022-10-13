@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+}
+
+
+body{
+    margin: 0px;
+}
+
+footer {
+    flex-shrink: 0;
+    background: white;
+    color: black;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
