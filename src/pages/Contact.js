@@ -1,7 +1,9 @@
 import React from "react";
 import Navbr from "../components/Navbr";
+import Forms from "../components/Forms";
+
 function Contact() {
-  return "contact";
+  return <Forms />;
 }
 
 export default Contact;
