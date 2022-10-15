@@ -3,11 +3,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
+    justify-content: center;
 }
 
-.card{
-margin: 10px;
+.card{margin: 10px;}
+
+.card-button{width: 100%; display: flex; justify-content: center;}
+
+.card-body button {
+    width: 90%;
+    border-radius: 4px;
+    background-color: $color-primary;
+    border-color: $color-primary;
 }
+
 
 .pagination{
     width: 100%;

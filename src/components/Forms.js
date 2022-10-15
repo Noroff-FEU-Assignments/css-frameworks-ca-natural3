@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 
 function Forms() {
   return (
-    <Form>
+    <Form className="container-forms">
       <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Name</Form.Label>
         <Form.Control type="text" />
@@ -31,9 +31,11 @@ function Forms() {
           label="Allow us to sell your personal details to whomever we want"
         />
       </Form.Group>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
+      <div className="forms-button">
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </div>
     </Form>
   );
 }

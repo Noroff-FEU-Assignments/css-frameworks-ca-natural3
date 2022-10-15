@@ -1,9 +1,24 @@
+
+
+.order-md-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.order-md-2{
+    display: flex;
+    justify-content: center;
+}
+
+
 .list-group-item{
     border: 0px;
     padding: 0px;
     display: flex;
     flex-direction: row;
     color: $color-media;
+    align-items: baseline;
 }
 
 .list-group-item p{
@@ -14,5 +29,19 @@ padding-left: 20px;
     list-style: none;
     padding: 0px;
     padding-left: 20px;
+}
+
+.container-forms{
+    padding: 1rem;
+    background-color: $color-forms_bk;
+}
+
+.forms-button{width: 100%; display: flex; justify-content: center;}
+
+.forms-button button {
+    width: 100%;
+    border-radius: 4px;
+    background-color: $color-button_forms;
+    border-color: $color-button_forms;
 }
 
