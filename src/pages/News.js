@@ -1,6 +1,7 @@
 import React from "react";
 import Paginations from "../components/Paginations";
 import NewsCards from "../components/NewsCards";
+import Footer from "../components/Footer";
 
 import imgNews1 from "../assets/news/news-1.jpg";
 import imgNews2 from "../assets/news/news-2.jpg";
@@ -15,21 +16,26 @@ const images = [imgNews1, imgNews2, imgNews3, imgNews4, imgNews5, imgNews6, imgN
 
 function News() {
   return (
-    <div className="container">
-      <h1>News</h1>
-      <Paginations />
-      <div className="cardList">
-        {images.map((item, index) => (
-          <NewsCards
-            key={`newscard_${index}`}
-            image={item}
-            title="Nunc porttitor vel"
-            text="Nunc malesuada eget est fringilla dapibus."
-          />
-        ))}
+    <>
+      <div className="wrapper">
+        <div className="container">
+          <h1>News</h1>
+          <Paginations />
+          <div className="cardList">
+            {images.map((item, index) => (
+              <NewsCards
+                key={`newscard_${index}`}
+                image={item}
+                title="Nunc porttitor vel"
+                text="Nunc malesuada eget est fringilla dapibus."
+              />
+            ))}
+          </div>
+          <Paginations />
+        </div>
       </div>
-      <Paginations />
-    </div>
+      <Footer />
+    </>
   );
 }
 
