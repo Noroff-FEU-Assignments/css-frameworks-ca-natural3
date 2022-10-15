@@ -1,0 +1,13 @@
+.accordion-header button{
+    color: $color-primary;
+   background-color: $color-tabs_bk;
+
+}
+
+.accordion-button{
+    color: $color-primary;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $color-primary;
+}

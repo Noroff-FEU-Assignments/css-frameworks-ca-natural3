@@ -20,7 +20,7 @@ function Navbr() {
           </Nav>
           <Form className="d-flex">
             <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success">GO</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

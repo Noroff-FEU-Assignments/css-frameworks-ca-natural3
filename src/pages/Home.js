@@ -11,7 +11,7 @@ function Home() {
     <>
       <div className="wrapper">
         <Carousel />
-        <div>
+        <div className="container">
           <h1>We do YAY things</h1>
           <p>
             Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros
@@ -20,8 +20,9 @@ function Home() {
             efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus
             a, varius eget massa.
           </p>
+
+          <Tabs />
         </div>
-        <Tabs />
       </div>
       <Footer />
     </>
