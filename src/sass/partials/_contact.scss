@@ -1,0 +1,16 @@
+.list-group-item{
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-group-item p{
+padding-left: 20px;
+}
+
+.list-group-item ul{
+    list-style: none;
+    padding: 0px;
+    padding-left: 20px;
+}

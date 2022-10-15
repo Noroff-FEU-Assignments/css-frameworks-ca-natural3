@@ -26,7 +26,10 @@ function Forms() {
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Check
+          type="checkbox"
+          label="Allow us to sell your personal details to whomever we want"
+        />
       </Form.Group>
       <Button variant="primary" type="submit">
         Submit
