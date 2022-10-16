@@ -22,7 +22,7 @@ function Forms() {
 
       <Form.Group className="mb-3" controlId="formBasicMessage">
         <Form.Label>Message</Form.Label>
-        <Form.Control type="text" />
+        <Form.Control className="form-message_box" type="text" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicCheckbox">

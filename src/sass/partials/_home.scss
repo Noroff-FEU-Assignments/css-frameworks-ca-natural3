@@ -1,13 +1,23 @@
-.accordion-header button{
-    color: $color-primary;
-   background-color: $color-tabs_bk;
+.nav-tabs{border: 0px; margin: 0px;}
+.nav-link:hover{color: $color-tabs_media;}
+.tab-content{background-color: $color-tabs_bk;}
+.tab-container{display: flex;}
+.tab-container_text_media{margin: 1rem;}
+.tab-container_media{display: flex; align-items: baseline; gap:10px}
+.tab-container_media p{color: $color-menu_text;}
+.tab-content{display: flex; flex-direction: row; padding: 1rem;}
+.mb-3 {margin: 0px !important;}
 
+.accordion-header button{color: $color-primary; background-color: $color-tabs_bk;}
+.accordion-button{color: $color-primary;}
+.accordion-button:not(.collapsed) {color: $color-primary;}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    background-color: $color-primary;
 }
-
-.accordion-button{
-    color: $color-primary;
-}
-
 .accordion-button:not(.collapsed) {
-    color: $color-primary;
+    background-color: $color-tabs_bk;
 }

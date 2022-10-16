@@ -9,10 +9,12 @@ function NewsCards(props) {
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>
+          <h2>{props.title}</h2>
+        </Card.Title>
         <Card.Text>{props.text}</Card.Text>
         <div className="card-button">
-          <Button variant="primary">More</Button>
+          <Button variant="primary">MORE</Button>
         </div>
       </Card.Body>
     </Card>

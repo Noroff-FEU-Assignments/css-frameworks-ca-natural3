@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 function Contact() {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper contact-background">
         <div className="container">
           <h1>Submit your details</h1>
           <div class="row">
