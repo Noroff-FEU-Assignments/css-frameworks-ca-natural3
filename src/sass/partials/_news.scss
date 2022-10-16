@@ -15,10 +15,16 @@
     border-radius: 4px;
     background-color: $color-primary;
     border-color: $color-primary;
+    &:hover{
+        background-color:$color-menu_bk;
+        color: $color-primary;
+        border-color: $color-primary;
+    }
 }
 
 
 .pagination{
+    padding: 2rem 0px;
     width: 100%;
     --bs-pagination-active-bg:$color-primary;
     --bs-pagination-active-border-color:$color-primary;

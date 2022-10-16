@@ -21,3 +21,9 @@
 .accordion-button:not(.collapsed) {
     background-color: $color-tabs_bk;
 }
+
+@media only screen and (max-width: 768px) {
+    .tab-container {
+        flex-direction: column-reverse;
+      }
+  }

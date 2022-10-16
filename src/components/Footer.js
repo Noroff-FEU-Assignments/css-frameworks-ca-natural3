@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div>
+      <div className="footer-media">
         <i class="fa-brands fa-2xl fa-vimeo-v"></i>
         <i class="fa-brands fa-2xl fa-youtube"></i>
       </div>
